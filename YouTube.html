@@ -23,15 +23,6 @@
 
                 margin-bottom: 20px;
             }
-            
-            .videos-1
-            {
-                margin-right: 15px;
-
-                display: inline-block;
-                width: 300px;
-                vertical-align: top;
-            }
 
                 .ch
                 {
@@ -41,17 +32,15 @@
 
                     .Pic3x
                     {
-                        width:  300px;
+                        width:  100%;
                       
                     }
 
 
                 .channelPic
                 {
-                    display: inline-block;
                     width: 40px;
 
-                    vertical-align: top;
                 
                 }
                     .profPic3
@@ -63,8 +52,6 @@
             
                 .channelInfo
                 {
-                    vertical-align: top;
-                    display: inline-block;
                     margin-left: 8px; 
                     width: 200px;
                 }
@@ -86,6 +73,19 @@
 
                     }
 
+            .video-info-grid
+            {
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
+
+            .video-grid
+            {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 18px;
+                row-gap:    40px;
+            }
            
 
             
@@ -96,47 +96,127 @@
 
     <body>
         <input class="search-bar" type="text" placeholder="Search">
+        <div class="video-grid">
+            <div class="videos-1">
 
-        <div class="videos-1">
-
-            <div class="ch">
-                <img class="Pic3x" src="Pics/3x+1.png">         
+                <div class="ch">
+                    <img class="Pic3x" src="Pics/3x+1.png">         
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channelPic">
+                        <img class="profPic3" src="Pics/channel-4.jpeg">
+                    </div>
+    
+                    <div class="channelInfo">
+                        <p class="Pic3x-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                        <p class="Pic3x-autor">Veritasium</p>
+                        <p class="Pic3x-stat" >18M views &#183; 4 months ago</p>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <div class="channelPic">
-                    <img class="profPic3" src="Pics/channel-4.jpeg">
+    
+            <div class="videos-1">
+    
+                <div class="ch">
+                    <img class="Pic3x" src="Pics/thumbnail-5.webp">         
                 </div>
-
-                <div class="channelInfo">
-                    <p class="Pic3x-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
-                    <p class="Pic3x-autor">Veritasium</p>
-                    <p class="Pic3x-stat" >18M views &#183; 4 months ago</p>
+    
+                <div class="video-info-grid">
+                    <div class="channelPic">
+                        <img class="profPic3" src="Pics/channel-5.jpeg">
+                    </div>
+    
+                    <div class="channelInfo">
+                        <p class="Pic3x-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <p class="Pic3x-autor">CS Dojo</p>
+                        <p class="Pic3x-stat" >519K views &#183; 5 years ago</p>
+                    </div>
                 </div>
+    
+            </div>
+    
+            
+            <div class="videos-1">
+    
+                <div class="ch">
+                    <img class="Pic3x" src="Pics/thumbnail-9.webp">         
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channelPic">
+                        <img class="profPic3" src="Pics/channel-9.jpeg">
+                    </div>
+    
+                    <div class="channelInfo">
+                        <p class="Pic3x-title">The SECRET to Super Human STRENGTH</p>
+                        <p class="Pic3x-autor">ThenX</p>
+                        <p class="Pic3x-stat" >20M views &#183; 3 year ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="videos-1">
+    
+                <div class="ch">
+                    <img class="Pic3x" src="Pics/thumbnail-10.webp">         
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channelPic">
+                        <img class="profPic3" src="Pics/channel-10.jpeg">
+                    </div>
+    
+                    <div class="channelInfo">
+                        <p class="Pic3x-title">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</p>
+                        <p class="Pic3x-autor">Business Insider</p>
+                        <p class="Pic3x-stat" >14M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            
+            <div class="videos-1">
+    
+                <div class="ch">
+                    <img class="Pic3x" src="Pics/thumbnail-12.webp">         
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channelPic">
+                        <img class="profPic3" src="Pics/channel-12.jpeg">
+                    </div>
+    
+                    <div class="channelInfo">
+                        <p class="Pic3x-title">What would happen if you didn’t drink water? - Mia Nacamulli</p>
+                        <p class="Pic3x-autor">TED-Ed</p>
+                        <p class="Pic3x-stat" >12M views &#183; 5 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="videos-1">
+    
+                <div class="ch">
+                    <img class="Pic3x" src="Pics/thumbnail-11.webp">         
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channelPic">
+                        <img class="profPic3" src="Pics/channel-11.jpeg">
+                    </div>
+    
+                    <div class="channelInfo">
+                        <p class="Pic3x-title">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
+                        <p class="Pic3x-autor">Destination Tips</p>
+                        <p class="Pic3x-stat" >3M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+    
             </div>
 
         </div>
-
-        <div class="videos-1">
-
-            <div class="ch">
-                <img class="Pic3x" src="Pics/thumbnail-5.webp">         
-            </div>
-
-            <div>
-                <div class="channelPic">
-                    <img class="profPic3" src="Pics/channel-5.jpeg">
-                </div>
-
-                <div class="channelInfo">
-                    <p class="Pic3x-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
-                    <p class="Pic3x-autor">CS Dojo</p>
-                    <p class="Pic3x-stat" >519K views &#183; 5 years ago</p>
-                </div>
-            </div>
-
-        </div>
-
 
     </body>
 
