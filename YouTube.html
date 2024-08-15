@@ -6,108 +6,36 @@
         <title> YouTube</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <style> 
-            p
-            {
-                    margin-top: 0px;
-                    margin-bottom: 0px;
-                    
-                    font-family: Roboto , Arial;
-            }   
-            .search-bar
-            {
-                font-size: 20px;
-                display: block;
+        
+        <link rel="stylesheet" href="Styles/general.css">
+        <link rel="stylesheet" href="Styles/header.css">
+        <link rel="stylesheet" href="Styles/video.css">
 
-                margin-bottom: 20px;
-            }
-
-                .ch
-                {
-                    margin-bottom: 12px;
-                }
-
-
-                    .Pic3x
-                    {
-                        width:  100%;
-                      
-                    }
-
-
-                .channelPic
-                {
-                    width: 40px;
-
-                
-                }
-                    .profPic3
-                    {
-                        border-radius: 50px;
-                        width: 100%;
-                    }
-
-            
-                .channelInfo
-                {
-                    margin-left: 8px; 
-                    width: 200px;
-                }
-                    .Pic3x-title
-                    {
-                        font-size: 14px;
-                        margin-bottom: 12px;
-                        font-weight: 500;
-                        line-height: 18px;
-                
-                    }
-                    .Pic3x-autor, .Pic3x-stat 
-                    {
-                        font-size: 12px;
-                        color: rgb(96, 96, 96);
-                    }
-                    .Pic3x-autor{
-                        margin-bottom: 6px;
-
-                    }
-
-            .video-info-grid
-            {
-                display: grid;
-                grid-template-columns: 50px 1fr;
-            }
-
-            .video-grid
-            {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 18px;
-                row-gap:    40px;
-            }
-           
-
-            
-            
-            
-            </style>
     </head>
 
     <body>
-        <input class="search-bar" type="text" placeholder="Search">
+        <div class="header">
+
+            <div class="h-left">lllllll</div>
+            <div class="h-center"> 
+                <input class="search-bar" type="text" placeholder="Search">
+            </div>
+            <div class="h-right">rrrrrrrr</div>
+            
+        </div>
+
+
         <div class="video-grid">
             <div class="videos-1">
-
                 <div class="ch">
                     <img class="Pic3x" src="Pics/3x+1.png">         
                 </div>
-    
                 <div class="video-info-grid">
                     <div class="channelPic">
                         <img class="profPic3" src="Pics/channel-4.jpeg">
                     </div>
-    
                     <div class="channelInfo">
                         <p class="Pic3x-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
                         <p class="Pic3x-autor">Veritasium</p>
@@ -136,7 +64,6 @@
     
             </div>
     
-            
             <div class="videos-1">
     
                 <div class="ch">
@@ -176,7 +103,6 @@
     
             </div>
     
-            
             <div class="videos-1">
     
                 <div class="ch">
@@ -213,7 +139,6 @@
                         <p class="Pic3x-stat" >3M views &#183; 1 year ago</p>
                     </div>
                 </div>
-    
             </div>
 
         </div>
