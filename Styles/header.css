@@ -1,10 +1,21 @@
 .header
 {
-    height: 55px;
+    height: 60px;
     display: flex;
     flex-direction: row;
 
     justify-content: space-between;
+
+    background-color: white;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    border-bottom-width: 1PX;
+    border-bottom-color: rgb(155, 155, 155);
+    border-bottom-style: solid;
 }
 
 .h-left
