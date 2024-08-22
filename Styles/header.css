@@ -1,6 +1,6 @@
 .header
 {
-    height: 60px;
+    height: 75px;
     display: flex;
     flex-direction: row;
 
@@ -14,14 +14,18 @@
     left: 0px;
 
     border-bottom-width: 1PX;
-    border-bottom-color: rgb(155, 155, 155);
+    border-bottom-color: rgb(215, 215, 215);
     border-bottom-style: solid;
+
+    z-index: 1;
 }
 
 .h-left
 {
     display: flex;
     align-items: center;
+    column-gap: 20px;
+    padding-left: 15px;
 }
 .h-center
 {  
@@ -63,7 +67,7 @@
 {
     width:0px;
     flex:1;
-    height: 36px;
+    height: 36.2px;
     padding-left: 10px;
     font-size: 16px;
     border-style: solid;
@@ -87,9 +91,24 @@
     margin-top: 3px;
 }
 
+.search-btn , .voice-btn , .app_con , .not-icon ,.upl_con
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    cursor: pointer;
+
+
+}
+
 .search-btn
 {
-    height: 40px;
+  
+
+    height: 41px;
     width: 66px;
     background-color: rgb(239, 239, 239);
 
@@ -101,16 +120,79 @@
     margin-left: -4px;
     margin-right: 10px;
 
+   
+
+
+}
+.search-btn div , .voice-btn div ,.upl_con div , .app_con div
+{
+    margin-top: 80px;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+   
+    opacity: 0;
+
+    border-radius: 3px;
+    pointer-events: none;
+    white-space: nowrap;
+
+    font-family: Roboto,Arial;
+    font-size: 13px;
+
+    transition: all 0.15s;
+}
+
+.search-btn:hover div , .voice-btn:hover div ,.upl_con:hover div , .app_con:hover div
+{
+    opacity: 1;
+}
+
+.notiii
+{
+    margin-top: 80px;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    opacity: 0;
+    border-radius: 3px;
+    pointer-events: none;
+    white-space: nowrap;
+
+    font-family: Roboto,Arial;
+    font-size: 13px;
+    transition: all 0.15s;
+
+
+}
+
+.not-icon:hover .notiii
+{
+    opacity: 1;
 }
 
 .voice-btn
 {
+   
     border-color: rgb(173, 173, 173);
     height: 44px;
     width: 44px;
 
     border-radius: 50px;
     border-style: none;
+    position: relative;
+    cursor: pointer;
+    
+
 }
 .voice-icon
 {
@@ -126,4 +208,26 @@
 {
     border-radius: 50px;
     height: 36px;
+}
+
+.not-icon
+{
+    position: relative;
+}
+.not-count
+{
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    position: absolute;
+    top:-3px;
+    right: -3px;
+    background-color: red;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+
+
 }

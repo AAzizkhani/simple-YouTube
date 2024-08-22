@@ -2,12 +2,31 @@
 .ch
 {
     margin-bottom: 12px;
+    position: relative;
 }
 
 
 .Pic3x
 {
     width: 90%; 
+}
+
+.pic_time
+{
+    background-color: rgba(0, 0, 0, 0.841);
+    color: white;
+    position: absolute;
+
+    bottom: 10px;
+    right: 55px;
+
+    font-family: Roboto , Arial;
+    font-size: 12px;
+
+    padding: 4px;
+
+    border-radius: 1px;
+
 }
 
 .channelPic
